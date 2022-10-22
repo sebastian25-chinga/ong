@@ -1,9 +1,8 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
 
 <head>
-    
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
@@ -315,30 +314,30 @@
             <h1 class="text-center">CONTACTANOS</h1>
             <p class="text-center">Si quieres ayudar, escríbenos</p>
 
-            <form action="enviar.php" method="post">
+            <form action="mailto:jchingapalacios05@gmail.com" method="post" enctype="text/plain">
 
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Escribe tu nombre</label>
-                    <input type="text" name="nombre" class="form-control" id="exampleFormControlInput1" placeholder=""
+                    <input type="text" name="nombre" class="form-control" id="exampleFormControlInput1" placeholder="Nombre"
                         required>
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">Escribe tu e-mail</label>
                     <input type="email" name="email" class="form-control" id="exampleFormControlInput1"
-                        placeholder="name@example.com" required>
+                        placeholder="Email" required>
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlTextarea5" class="form-label">Asunto</label>
                     <input type="text" name="asunto" class="form-control" id="exampleFormControlInput5"
-                        placeholder="asunto" required>
+                        placeholder="Asunto" required>
                 </div>
                 <div class="mb-3">
                     <label for="exampleFormControlTextarea1" class="form-label">Envíanos un mensaje</label>
-                    <textarea class="form-control" name="mensaje" id="exampleFormControlTextarea1" rows="3"
+                    <textarea placeholder="Escriba un mensaje" class="form-control" name="mensaje" id="exampleFormControlTextarea1" rows="3"
                         required></textarea>
                 </div>
                 <div class="mb-3">
-                    <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+                    <button id="enviar" type="submit" class="btn btn-primary">Enviar mensaje</button>
                 </div>
             </form>
         </div>
